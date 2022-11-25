@@ -15,8 +15,8 @@ export default function handler(req, res) {
 
   try {
     client.send({
-      text: `Hola, necesito ponerme en contacto contigo, JG`,
-      from: email,
+      text: `Hola, necesito ponerme en contacto contigo, JG ${email}`,
+      from: 'josegmartinez.rsa@gmail.com',
       to: 'jgermanmm@gmail.com',
       subject: "Contacto desde web site (nextJS)",
     });

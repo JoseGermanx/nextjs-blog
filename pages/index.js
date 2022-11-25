@@ -38,13 +38,13 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <main className={utilStyles.headingMd}>
+      {/* <main className={utilStyles.headingMd}>
         <p>Ingresa tu email y me pongo en contacto contigo</p>
        <form>
       <input type="email" placeholder="Ingresa tu email" required value={email} onChange={(e)=>setEmail(e.target.value)}></input>
       <button onClick={SendMail}>Send</button>
         </form>
-     </main>
+     </main> */}
       <section className={utilStyles.headingMd}>
         <p>
           Full Stack Web Developer ➝ JavaScript : ✓, React: ✓, Redux : ✓,
