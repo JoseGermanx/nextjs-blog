@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'JGx';
-export const siteTitle = 'A simple persoanl blob in Next.js';
+export const siteTitle = 'A simple personal blob de jgxdev in Next.js';
 
 export default function Layout({ children, home }) {
   return (
