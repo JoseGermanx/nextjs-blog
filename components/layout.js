@@ -6,7 +6,7 @@ import Link from 'next/link';
 import ContactForm from '../components/ContactForm'
 
 const name = 'JGx';
-export const siteTitle = 'Personal blog de jgxdev in Next.js';
+export const siteTitle = 'Personal blog de José Germán (jgxdev) desarrollando con Next.js';
 
 export default function Layout({ children, home }) {
   return (
@@ -15,7 +15,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Making my fist blog on Next.js"
+          content="Primer desarrollo en Next.js"
         />
         <meta
           property="og:image"
@@ -62,7 +62,7 @@ export default function Layout({ children, home }) {
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
-          <Link href="/">← Back to home</Link>
+          <Link href="/">← Ir al inicio</Link>
           
       <ContactForm />
         </div>

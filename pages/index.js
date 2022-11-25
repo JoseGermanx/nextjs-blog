@@ -24,19 +24,19 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      
-     <section className={utilStyles.headingMd}>
-        <p>
-          Full Stack Web Developer ➝ JavaScript : ✓, React: ✓, Redux : ✓,
-          NodeJS: ✓, Express: ✓, PostgreSQL: ✓, Sequelize: ✓, MongoDB: ✓,{" "}
-          <strong>NextJS: ✓</strong>
+
+      <section className={utilStyles.headingMd}>
+        <p><strong>Full Stack Web Developer ➝ JavaScript : ✓</strong>
+        <br />
+        React: ✓, Redux : ✓, NodeJS: ✓, Express: ✓, PostgreSQL: ✓, Sequelize:
+          ✓, MongoDB: ✓, <strong>NextJS: ✓</strong>
           <br />
           Follow me on{""} <a href="https://twitter.com/jgxdev">Twitter</a>
         </p>
         <p>
-          (This web site is a part of my work on front-end development, here is
-          the repositorie{" "}
-          <a href="https://github.com/jgxdev/nextjs-blog">on GitHub</a>.)
+          (Este sitio web es parte de la muestra de mi trabajo como desarrollador front-end, y puedes
+          ver el código fuente en el repositorio{" "}
+          <a href="https://github.com/jgxdev/nextjs-blog">en github</a>.)
         </p>
       </section>
       {/* Add this <section> tag below the existing <section> tag */}
@@ -56,6 +56,5 @@ export default function Home({ allPostsData }) {
       </section>
       <ContactForm />
     </Layout>
-    
   );
 }
