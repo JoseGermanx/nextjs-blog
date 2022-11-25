@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import ContactForm from '../components/ContactForm'
 
 const name = 'JGx';
 export const siteTitle = 'Personal blog de jgxdev in Next.js';
@@ -62,6 +63,8 @@ export default function Layout({ children, home }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">← Back to home</Link>
+          
+      <ContactForm />
         </div>
       )}
     </div>
