@@ -6,8 +6,7 @@ import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
-import { useState } from "react";
-import axios from "axios";
+import ContactForm from '../components/ContactForm'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -19,33 +18,14 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData }) {
-  const [email, setEmail] = useState("");
-  const SendMail = async (e) => {
-    e.preventDefault();
-    console.log("call");
-    axios.post('http://localhost:3000/api/email',{email})
-   .then(
-   (res)=>{
-     alert('Mensaje enviado')
-     setEmail('')
-   }
-   ).catch(
-     (e)=>console.log(e)
-   )
-  };
+
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      {/* <main className={utilStyles.headingMd}>
-        <p>Ingresa tu email y me pongo en contacto contigo</p>
-       <form>
-      <input type="email" placeholder="Ingresa tu email" required value={email} onChange={(e)=>setEmail(e.target.value)}></input>
-      <button onClick={SendMail}>Send</button>
-        </form>
-     </main> */}
-      <section className={utilStyles.headingMd}>
+      
+     <section className={utilStyles.headingMd}>
         <p>
           Full Stack Web Developer ➝ JavaScript : ✓, React: ✓, Redux : ✓,
           NodeJS: ✓, Express: ✓, PostgreSQL: ✓, Sequelize: ✓, MongoDB: ✓,{" "}
@@ -74,6 +54,8 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+      <ContactForm />
     </Layout>
+    
   );
 }
