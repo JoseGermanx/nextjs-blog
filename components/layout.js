@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'JGx';
-export const siteTitle = 'A simple personal blob de jgxdev in Next.js';
+export const siteTitle = 'Personal blog de jgxdev in Next.js';
 
 export default function Layout({ children, home }) {
   return (
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Making my fist blog on Next.js"
         />
         <meta
           property="og:image"
