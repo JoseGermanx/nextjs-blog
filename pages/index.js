@@ -27,8 +27,8 @@ export default function Home({ allPostsData }) {
         Follow me on{''} <a href="https://twitter.com/jgxdev">Twitter</a>
         </p>
         <p>
-          (This web site is a part of my work on front-end development, here the repositorie{' '}
-          <a href="https://github.com/jgxdev">on GitHub</a>.)
+          (This web site is a part of my work on front-end development, here is the repositorie{' '}
+          <a href="https://github.com/jgxdev/nextjs-blog">on GitHub</a>.)
         </p>
       </section>
       {/* Add this <section> tag below the existing <section> tag */}
