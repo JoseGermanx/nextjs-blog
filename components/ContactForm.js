@@ -1,5 +1,4 @@
 // components/ContactForm.js
-
 import React, { useState } from "react";
 import axios from "axios";
 import { useForm } from "react-hook-form";
@@ -15,7 +14,7 @@ export default function ContactForm() {
 
   function onSubmit(data) {
     let correo = document.getElementById("email").value;
-    if (correo === "") { alert("Los campos no pueden quedar vacios");
+    if (correo === "") { alert("El campo email no puede estar vacio");
     return true;}
     axios
       .post("https://eo6iizo6oars1fk.m.pipedream.net", data)
