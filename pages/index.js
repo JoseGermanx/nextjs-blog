@@ -6,7 +6,8 @@ import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
-import ContactForm from '../components/ContactForm'
+import ContactForm from '../components/ContactForm';
+import Presentacion from'../components/Presentacion'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -33,11 +34,6 @@ export default function Home({ allPostsData }) {
           <br />
           Follow me on{""} <a href="https://twitter.com/jgxdev">Twitter</a>
         </p>
-        <p>
-          (Este sitio web es parte de la muestra de mi trabajo como desarrollador front-end, y puedes
-          ver el código fuente en el repositorio{" "}
-          <a href="https://github.com/jgxdev/nextjs-blog">en github</a>.)
-        </p>
       </section>
       {/* Add this <section> tag below the existing <section> tag */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -55,6 +51,7 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
       <ContactForm />
+      <Presentacion />
     </Layout>
   );
 }

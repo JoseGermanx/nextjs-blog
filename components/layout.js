@@ -4,6 +4,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import ContactForm from '../components/ContactForm'
+import Presentacion from '../components/Presentacion'
+
 
 const name = 'JGx';
 export const siteTitle = 'Personal blog de José Germán (jgxdev) desarrollando con Next.js';
@@ -65,6 +67,7 @@ export default function Layout({ children, home }) {
           <Link href="/">← Ir al inicio</Link>
           
       <ContactForm />
+      <Presentacion />
         </div>
       )}
     </div>
