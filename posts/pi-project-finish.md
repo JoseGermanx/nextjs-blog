@@ -12,3 +12,5 @@ En esta defensa del proyecto tuve la oportunidad, en unos 15 minutos, de present
 Em este desarrollo tuve la oportunidad de demostrar mis conocimientos de back-end javascript (Node, Express, Axios, promesas, async await y algunas cosillas mas), en front end (trabajando fuertemente con ReactJs, hooks y manejo de estados globales con Redux).
 
 Una experiencia muy gratificante.
+
+Link a la versión funcional actual del proyecto: [Link](https://countriespi-pro.onrender.com/)
