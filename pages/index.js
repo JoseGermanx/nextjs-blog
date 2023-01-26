@@ -32,7 +32,7 @@ export default function Home({ allPostsData }) {
         React: ✓, Redux : ✓, NodeJS: ✓, Express: ✓, PostgreSQL: ✓, Sequelize:
           ✓, MongoDB: ✓, <strong>NextJS: ✓</strong>
           <br />
-          View my work on {""} <a href="https://hithub.com/josegermanx">GitHub</a>
+          View my work on {""} <a href="https://github.com/josegermanx">GitHub</a>
           <br />
           Follow me on{""} <a href="https://twitter.com/jgxdev">Twitter</a>
         </p>
