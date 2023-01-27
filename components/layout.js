@@ -7,8 +7,8 @@ import ContactForm from '../components/ContactForm'
 import Presentacion from '../components/Presentacion'
 
 
-const name = 'JGx';
-export const siteTitle = 'Personal blog de José Germán (jgxdev) desarrollando con Next.js';
+const name = 'José G. Martínez';
+export const siteTitle = 'Sitio personal de José Germán (jgxdev) desarrollado con Next.js';
 
 export default function Layout({ children, home }) {
   return (
