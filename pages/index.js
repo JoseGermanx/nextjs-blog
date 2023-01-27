@@ -30,7 +30,9 @@ export default function Home({ allPostsData }) {
         <p><strong>Full Stack Web Developer ➝ JavaScript : ✓</strong>
         <br />
         React: ✓, Redux : ✓, NodeJS: ✓, Express: ✓, PostgreSQL: ✓, Sequelize:
-          ✓, MongoDB: ✓, <strong>NextJS: ✓</strong>
+          ✓, MongoDB: ✓, NextJS: ✓
+          <br />
+          <strong>Experience on Docker, AWS, Git, Scrum, Unit Testing</strong>
           <br />
           View my work on {""} <a href="https://github.com/josegermanx">GitHub</a>
           <br />
