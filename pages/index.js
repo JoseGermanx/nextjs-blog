@@ -37,6 +37,8 @@ export default function Home({ allPostsData }) {
           View my work on {""} <a href="https://github.com/josegermanx">GitHub</a>
           <br />
           Follow me on{""} <a href="https://twitter.com/jgxdev">Twitter</a>
+          <br />
+          Personal project, developed with nodejs and reactjs {""} <a href="https://countriespi-pro.onrender.com/">Countries APP</a>
         </p>
       </section>
       {/* Add this <section> tag below the existing <section> tag */}
