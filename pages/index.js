@@ -32,7 +32,7 @@ export default function Home({ allPostsData }) {
         React: ✓, Redux : ✓, NodeJS: ✓, Express: ✓, PostgreSQL: ✓, Sequelize:
           ✓, MongoDB: ✓, NextJS: ✓
           <br />
-          <img src="../public/images/tecnologies.svg" alt="Tecnologías"></img>
+          <img src="public/images/tecnologies.svg" alt="Tecnologías"></img>
           <strong>Experience on Docker, AWS, Git, Scrum, Unit Testing</strong>
           <br />
           View my work on {""} <a href="https://github.com/josegermanx">GitHub</a>
