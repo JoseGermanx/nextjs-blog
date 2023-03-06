@@ -18,8 +18,6 @@ export async function getStaticProps() {
   };
 }
 
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-
 export default function Home({ allPostsData }) {
 
   return (
