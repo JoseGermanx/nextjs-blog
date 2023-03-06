@@ -27,6 +27,7 @@ export default function ContactForm() {
   }
 
   return (
+    <div>
     <form className={utilStyles.headingMd} onSubmit={handleSubmit(onSubmit)}>
       <h4>Únete a mi lista de contactos</h4>
       <p> Indica tu correo electronico</p>
@@ -36,5 +37,8 @@ export default function ContactForm() {
       <button role="submit">{isSubmitting ? "Submitting" : "Enviar"}</button>
       {successMessage && <p>{successMessage}</p>}
     </form>
+    <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="josegermanx" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://cl.linkedin.com/in/josegermanx?trk=profile-badge">Jose German Martinez Melchor</a></div>
+              
+    </div>
   );
 }
