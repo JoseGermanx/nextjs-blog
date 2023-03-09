@@ -3,7 +3,11 @@ title: 'Desarrollador Full Stack (JavaScript)'
 date: '2022-11-24'
 ---
 
-Actualmente cursando. Módulo 3 aprobado (Back-end NodeJS - ExpressJS).
+Actualizado '2023-03-08'
+
+Actualmente cursando, en la fase final del bootcamp de Henry (Argentina). Proyecto individual y proyectO final ambos aprobados. Desarrollados con el stack de javascript PERN.
+
+En fase de estudios en el bootcamp de Escalab (Chile), reforzando conocientos técnicos del stack de javascript MERN
 
 Actividades y grupos: Participación en sesiones de trabajo grupales, aprendizaje de nuevas tecnologías.
 
