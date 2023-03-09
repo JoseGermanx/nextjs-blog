@@ -5,6 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import ContactForm from '../components/ContactForm'
 import Presentacion from '../components/Presentacion'
+import Schedule from './Schedule';
 
 
 const name = 'José G. Martínez';
@@ -65,7 +66,7 @@ export default function Layout({ children, home }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">← Ir al inicio</Link>
-          
+      <Schedule />  
       <ContactForm />
       <Presentacion />
         </div>
