@@ -8,6 +8,7 @@ import Link from "next/link";
 import Date from "../components/date";
 import ContactForm from '../components/ContactForm';
 import Presentacion from'../components/Presentacion'
+import Schedule from "../components/Schedule";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -57,6 +58,7 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+      <Schedule />
       <ContactForm />
       <Presentacion />
     </Layout>
