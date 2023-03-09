@@ -1,1 +1,3 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+## Portafolio personal y blog de Jose German
+
+Porfafolio de Jose German Martinez desarrollado con el framework de react NextJs.
