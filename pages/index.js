@@ -9,6 +9,7 @@ import Date from "../components/date";
 import ContactForm from '../components/ContactForm';
 import Presentacion from'../components/Presentacion'
 import Schedule from "../components/Schedule";
+import Portfolio from "../components/Portfolio";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -38,10 +39,9 @@ export default function Home({ allPostsData }) {
           <br />
           View my work on {""} <a href="https://github.com/josegermanx">GitHub</a>
           <br />
-          Follow me on{""} <a href="https://twitter.com/jgxdev">Twitter</a>
-          <br />
-          Personal project, developed with nodejs and reactjs {""} <a href="https://countriespi-pro.onrender.com/">Countries APP</a>
+          Follow me on{""} <a href="https://twitter.com/jgxdev">Twitter</a>          
         </p>
+        <Portfolio />
       </section>
       {/* Add this <section> tag below the existing <section> tag */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
