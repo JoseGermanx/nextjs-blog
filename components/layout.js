@@ -40,7 +40,7 @@ export default function Layout({ children, home }) {
               width={144}
               alt=""
             />
-            <h1 className="text-3xl font-bold mb-5">{name}</h1>
+            <h1 className="text-5xl font-bold mb-5">{name}</h1>
           </>
         ) : (
           <>
