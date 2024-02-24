@@ -56,13 +56,7 @@ const NavBar = () => {
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
-                <a
-                  href="#"
-                  className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
-                  aria-current="page"
-                >
-                  CV
-                </a>
+                
                 <a
                   href="#"
                   className="bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
@@ -76,16 +70,24 @@ const NavBar = () => {
                   Contacto
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7078460407316635648"
                   className="bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  target="_blank"
                 >
-                  Calendar
+                  Newsletter
                 </a>
               </div>
             </div>
           </div>
           <div className="flex items-center">
-            <h3>Made by: José Germán Martínez</h3>
+          <a
+                  href="#"
+                  className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium mx-2"
+                  aria-current="page"
+                >
+                  CV
+                </a>
+            <h3>José Germán Martínez</h3>
             </div>
         </div>
       </div>
