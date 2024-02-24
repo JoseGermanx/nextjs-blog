@@ -6,6 +6,7 @@ import Link from 'next/link';
 import ContactForm from '../components/ContactForm'
 import Presentacion from '../components/Presentacion'
 import Schedule from './Schedule';
+import NavBar from './NavBar';
 
 
 const name = 'José G. Martínez';
@@ -13,6 +14,8 @@ export const siteTitle = 'Sitio personal de José Germán (jgxdev) desarrollado 
 
 export default function Layout({ children, home }) {
   return (
+    <>
+    <NavBar />
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
@@ -75,5 +78,6 @@ export default function Layout({ children, home }) {
         </div>
       )}
     </div>
+    </>
   );
 }
