@@ -81,7 +81,7 @@ const NavBar = () => {
           </div>
           <div className="flex items-center">
           <a
-                  href="#"
+                  href="/cv_jose_martinez.pdf"
                   className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium mx-2"
                   aria-current="page"
                 >
